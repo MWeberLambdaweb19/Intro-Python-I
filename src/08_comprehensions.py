@@ -11,6 +11,8 @@ for more info regarding list comprehensions.
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
 y = []
+for x in range(5):
+    y.append(x+1)
 
 print (y)
 
@@ -18,6 +20,8 @@ print (y)
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
 y = []
+for x in range(10):
+    y.append(x**3)
 
 print(y)
 
@@ -25,8 +29,9 @@ print(y)
 # elements in array a. Hint: "foo".upper() is "FOO".
 
 a = ["foo", "bar", "baz"]
-
 y = []
+for x in a:
+    y.append(x.upper())
 
 print(y)
 
