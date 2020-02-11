@@ -19,6 +19,7 @@ print(x)
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
 x.remove(8)
+# Look into pop/del, removing by index
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
